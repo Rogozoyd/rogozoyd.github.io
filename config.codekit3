@@ -4,18 +4,11 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "1C35A8FA-9C2F-4AC5-B907-52522D57C053"
+		"uuidString": "E0A90BF2-1CB6-47D4-B42B-0A1E3D7AD5D1"
 		}
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.gitattributes",
-		"oF": 0
-		},
 	"\/css\/examples.css": {
 		"aP": 1,
 		"bl": 0,
@@ -212,6 +205,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/Annnnnni.png": {
+		"ft": 32768,
+		"iS": 3536319,
+		"oA": 0,
+		"oAP": "\/img\/Annnnnni.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/arrow_left.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -242,6 +246,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/favicon\/00111.jpg": {
+		"ft": 16384,
+		"iS": 203448,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/00111.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/favicon\/apple-touch-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 1694,
@@ -253,12 +267,42 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/favicon\/DSC_0451.jpg": {
+		"ft": 16384,
+		"iS": 416227,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/DSC_0451.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/favicon\/DSC_04511.jpg": {
+		"ft": 16384,
+		"iS": 846679,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/DSC_04511.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/favicon\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/img\/favicon\/favicon.ico",
 		"oF": 0
+		},
+	"\/img\/favicon\/preview.jpg": {
+		"ft": 16384,
+		"iS": 38458,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/Laven.svg": {
 		"ft": 2097152,
@@ -292,7 +336,7 @@
 		},
 	"\/img\/Maaaaaali.png": {
 		"ft": 32768,
-		"iS": 420427,
+		"iS": 6692755,
 		"oA": 0,
 		"oAP": "\/img\/Maaaaaali.png",
 		"oF": 0,
@@ -317,6 +361,17 @@
 		"iS": 151782,
 		"oA": 0,
 		"oAP": "\/img\/mali2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/malig.png": {
+		"ft": 32768,
+		"iS": 229180,
+		"oA": 0,
+		"oAP": "\/img\/malig.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -896,7 +951,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/libs\/bootstrap\/scss\/bootstrap-grid.css",
 		"oF": 0,
 		"oS": 0,
@@ -909,7 +964,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/libs\/bootstrap\/scss\/bootstrap-reboot.css",
 		"oF": 0,
 		"oS": 0,
@@ -1539,6 +1594,162 @@
 		"oA": 0,
 		"oAP": "\/prepros.cfg",
 		"oF": 0
+		},
+	"\/sass\/_fonts.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_libs.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_libs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_media.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_mixins\/_font-face.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_mixins\/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_vars.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/main.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_libs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_libs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_mixins\/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_mixins\/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -1546,10 +1757,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 553013867,
-	"displayValue": "rogozoyd.github.io",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-facepalm"
+	"creationDate": 552553446,
+	"displayValue": "app",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-drunkArcher"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

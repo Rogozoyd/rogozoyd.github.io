@@ -102,9 +102,9 @@
 
         function init() {
             _this.pos.x = Math.random()*width;
-            _this.pos.y = height+Math.random()*1200;
-            _this.alpha = 0.3+Math.random()*0.3;
-            _this.scale = 0.2+Math.random()*0.3;
+            _this.pos.y = height+Math.random()*15800;
+            _this.alpha = 0.3+Math.random()*0.4;
+            _this.scale = 0.1+Math.random()*0.2;
             _this.velocity = Math.random();
         }
 
