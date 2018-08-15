@@ -396,6 +396,12 @@ html {
   }
 }
 
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1340px;
+  }
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -427,7 +433,8 @@ html {
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
-.col-xl-auto {
+.col-xl-auto, .col-2xl-1, .col-2xl-2, .col-2xl-3, .col-2xl-4, .col-2xl-5, .col-2xl-6, .col-2xl-7, .col-2xl-8, .col-2xl-9, .col-2xl-10, .col-2xl-11, .col-2xl-12, .col-2xl,
+.col-2xl-auto {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -1179,6 +1186,148 @@ html {
   }
 }
 
+@media (min-width: 1400px) {
+  .col-2xl {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-2xl-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  .col-2xl-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .col-2xl-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-2xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-2xl-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-2xl-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-2xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-2xl-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-2xl-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-2xl-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-2xl-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .col-2xl-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-2xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .order-2xl-first {
+    order: -1;
+  }
+  .order-2xl-last {
+    order: 13;
+  }
+  .order-2xl-0 {
+    order: 0;
+  }
+  .order-2xl-1 {
+    order: 1;
+  }
+  .order-2xl-2 {
+    order: 2;
+  }
+  .order-2xl-3 {
+    order: 3;
+  }
+  .order-2xl-4 {
+    order: 4;
+  }
+  .order-2xl-5 {
+    order: 5;
+  }
+  .order-2xl-6 {
+    order: 6;
+  }
+  .order-2xl-7 {
+    order: 7;
+  }
+  .order-2xl-8 {
+    order: 8;
+  }
+  .order-2xl-9 {
+    order: 9;
+  }
+  .order-2xl-10 {
+    order: 10;
+  }
+  .order-2xl-11 {
+    order: 11;
+  }
+  .order-2xl-12 {
+    order: 12;
+  }
+  .offset-2xl-0 {
+    margin-left: 0;
+  }
+  .offset-2xl-1 {
+    margin-left: 8.33333%;
+  }
+  .offset-2xl-2 {
+    margin-left: 16.66667%;
+  }
+  .offset-2xl-3 {
+    margin-left: 25%;
+  }
+  .offset-2xl-4 {
+    margin-left: 33.33333%;
+  }
+  .offset-2xl-5 {
+    margin-left: 41.66667%;
+  }
+  .offset-2xl-6 {
+    margin-left: 50%;
+  }
+  .offset-2xl-7 {
+    margin-left: 58.33333%;
+  }
+  .offset-2xl-8 {
+    margin-left: 66.66667%;
+  }
+  .offset-2xl-9 {
+    margin-left: 75%;
+  }
+  .offset-2xl-10 {
+    margin-left: 83.33333%;
+  }
+  .offset-2xl-11 {
+    margin-left: 91.66667%;
+  }
+}
+
 .d-none {
   display: none !important;
 }
@@ -1331,6 +1480,36 @@ html {
     display: flex !important;
   }
   .d-xl-inline-flex {
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .d-2xl-none {
+    display: none !important;
+  }
+  .d-2xl-inline {
+    display: inline !important;
+  }
+  .d-2xl-inline-block {
+    display: inline-block !important;
+  }
+  .d-2xl-block {
+    display: block !important;
+  }
+  .d-2xl-table {
+    display: table !important;
+  }
+  .d-2xl-table-row {
+    display: table-row !important;
+  }
+  .d-2xl-table-cell {
+    display: table-cell !important;
+  }
+  .d-2xl-flex {
+    display: flex !important;
+  }
+  .d-2xl-inline-flex {
     display: inline-flex !important;
   }
 }
@@ -1841,6 +2020,96 @@ html {
   }
 }
 
+@media (min-width: 1400px) {
+  .flex-2xl-row {
+    flex-direction: row !important;
+  }
+  .flex-2xl-column {
+    flex-direction: column !important;
+  }
+  .flex-2xl-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .flex-2xl-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .flex-2xl-wrap {
+    flex-wrap: wrap !important;
+  }
+  .flex-2xl-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .flex-2xl-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .justify-content-2xl-start {
+    justify-content: flex-start !important;
+  }
+  .justify-content-2xl-end {
+    justify-content: flex-end !important;
+  }
+  .justify-content-2xl-center {
+    justify-content: center !important;
+  }
+  .justify-content-2xl-between {
+    justify-content: space-between !important;
+  }
+  .justify-content-2xl-around {
+    justify-content: space-around !important;
+  }
+  .align-items-2xl-start {
+    align-items: flex-start !important;
+  }
+  .align-items-2xl-end {
+    align-items: flex-end !important;
+  }
+  .align-items-2xl-center {
+    align-items: center !important;
+  }
+  .align-items-2xl-baseline {
+    align-items: baseline !important;
+  }
+  .align-items-2xl-stretch {
+    align-items: stretch !important;
+  }
+  .align-content-2xl-start {
+    align-content: flex-start !important;
+  }
+  .align-content-2xl-end {
+    align-content: flex-end !important;
+  }
+  .align-content-2xl-center {
+    align-content: center !important;
+  }
+  .align-content-2xl-between {
+    align-content: space-between !important;
+  }
+  .align-content-2xl-around {
+    align-content: space-around !important;
+  }
+  .align-content-2xl-stretch {
+    align-content: stretch !important;
+  }
+  .align-self-2xl-auto {
+    align-self: auto !important;
+  }
+  .align-self-2xl-start {
+    align-self: flex-start !important;
+  }
+  .align-self-2xl-end {
+    align-self: flex-end !important;
+  }
+  .align-self-2xl-center {
+    align-self: center !important;
+  }
+  .align-self-2xl-baseline {
+    align-self: baseline !important;
+  }
+  .align-self-2xl-stretch {
+    align-self: stretch !important;
+  }
+}
+
 .w-25 {
   width: 25% !important;
 }
@@ -1957,8 +2226,18 @@ body p {
   position: relative;
   width: 100%;
   background-image: linear-gradient(-135deg, #7BC4DA 0%, #4E5ABE 100%);
-  background-image: linear-gradient(-135deg, #454378 0%, #030244 92%);
+  background-image: linear-gradient(-135deg, #454378 0%, #000000 92%);
   background: #363256 rgba(94, 110, 220, 0.5);
+}
+
+.main_page .collide {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  margin: auto;
 }
 
 .brand_name {
@@ -1969,17 +2248,28 @@ body p {
   bottom: -103px;
 }
 
+.logotype {
+  height: 200px !important;
+  margin: 0 0 0 -50px !important;
+  position: relative !important;
+  bottom: 100% !important;
+}
+
 .dools {
-  position: absolute;
+  height: 100%;
   bottom: 0%;
   width: 100%;
 }
 
 .dools img {
-  height: 800px;
+  height: 900px;
   bottom: 0;
   position: absolute;
-  margin: 0 0 0 -185px;
+  margin: 0 0 -190px 0;
+}
+
+.aft-tun {
+  margin: 0 0 0 0px;
 }
 
 .swaying_icons {
@@ -2001,6 +2291,31 @@ body p {
   }
 }
 
+.mesyats_icon {
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: sign-sway 8s ease-in-out forwards infinite;
+  animation: sign-sway 8s ease-in-out forwards infinite;
+  background: url("../img/mesyats.svg") no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 80px;
+  height: 180px;
+  left: 5%;
+  transform: rotate(90deg);
+}
+
+.mesyats_icon:before {
+  content: "";
+  display: block;
+  height: 8em;
+  bottom: 90%;
+  width: 1px;
+  background: #b7babd;
+  position: absolute;
+  left: 50%;
+}
+
 .star_icon {
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
@@ -2009,9 +2324,9 @@ body p {
   background: url("../img/Star.png") no-repeat;
   background-size: cover;
   position: relative;
-  width: 105px;
-  height: 100px;
-  left: 20%;
+  width: 54px;
+  height: 50px;
+  left: 50%;
 }
 
 .star_icon:before {
@@ -2033,9 +2348,9 @@ body p {
   background: url("../img/saturnus.png") no-repeat;
   background-size: cover;
   position: relative;
-  width: 105px;
-  height: 80px;
-  left: 50%;
+  width: 80px;
+  height: 60px;
+  left: 70%;
   transform: rotate(90deg);
 }
 
@@ -2056,6 +2371,20 @@ body p {
   top: 0px;
 }
 
+#section1 {
+  margin: 0;
+}
+
+#section1 h1 {
+  font-size: 11em;
+}
+
+#section1 p {
+  font-size: 1.9em;
+  width: 90%;
+  text-align: justify;
+}
+
 .left_side2 {
   position: relative;
   top: 20px;
@@ -2069,28 +2398,34 @@ body p {
   -webkit-animation-iteration-count: 1;
 }
 
-.page-footer :before {
-  transform: scaleY(1);
-}
-
-.page-footer :after {
-  transform: scaleX(1);
-}
-
 .right_side {
   display: block;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .right_side p {
   font-size: 2.2em !important;
-  width: 60% !important;
+  width: 80% !important;
+  text-align: left;
+  float: left;
+}
+
+.right_side h1 {
+  font-size: 11em;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.right_side img {
+  width: 250px;
+  margin: 10% 0 0 0;
+  float: left;
 }
 
 #slide2 {
-  background-color: #FAF1F6;
+  background-color: #FFFFFF;
 }
 
 .hide_it {
@@ -2146,20 +2481,71 @@ body p {
   }
 }
 
+.dolls-img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
 .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
 }
 
-#section3 {
-  background: url("../img/niga_long.png") no-repeat;
+.aboutAnika {
+  max-width: 90% !important;
+  margin: 0 auto;
+}
+
+#section4 {
+  background: url("../img/ContactNight-compressor.png") no-repeat;
   background-size: cover;
 }
 
+.info-box {
+  background-color: #ffffffd1;
+  padding: 20px;
+}
+
+.thinkin {
+  -webkit-animation: pulsing 1s infinite;
+  animation: pulsing 1s infinite;
+  position: absolute;
+  width: 1050px;
+  height: 470px;
+  right: 10%;
+  top: 2%;
+}
+
+.oval-thought-border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 24% 7% 0 5%;
+  text-align: center;
+  color: #333;
+  background: url("../img/cloud.svg") no-repeat;
+  background-size: cover;
+}
+
+.oval-thought-border p {
+  font-size: 3em !important;
+  width: 100%	!important;
+  color: black;
+}
+
+.oval-thought-border a {
+  text-decoration: none !important;
+}
+
 /*==========  Desktop First  ==========*/
-.star_icon {
-  width: 105px;
-  height: 100px;
+@media (max-width: 1399.98px) {
+  .star_icon {
+    width: 65px;
+    height: 59px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2174,5 +2560,205 @@ body p {
   .brand_name {
     bottom: 0;
     top: 10%;
+  }
+  .aboutAnika {
+    max-width: 90% !important;
+    margin: 125px auto;
+  }
+  #section1 {
+    margin: 0 0 200px;
+  }
+  .right_side {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  .right_side p {
+    font-size: 3em !important;
+    width: 90% !important;
+    text-align: left;
+    float: none;
+    margin: 0 0 0 50px;
+  }
+  .right_side h1 {
+    font-size: 11em;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .right_side img {
+    width: 250px;
+    margin: 5% 0 5% 0;
+    float: none;
+  }
+  .dolls-img {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    width: auto;
+    position: relative;
+  }
+  .main_page .collide {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin: auto;
+  }
+  .oval-thought-border {
+    padding: 64% 13% 0 16%;
+    background: url("../img/cloud2.svg") no-repeat;
+  }
+  .thinking {
+    position: absolute;
+    width: 791px;
+    height: 815px;
+    right: 10%;
+    top: 50%;
+  }
+  #section1 p {
+    font-size: 3em;
+    width: 90%;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 992px) {
+  #section1 {
+    margin: 0;
+  }
+  .dolls-img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    position: absolute;
+  }
+  .right_side {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  .right_side p {
+    font-size: 2.2em !important;
+    width: 90% !important;
+    text-align: left;
+    float: none;
+    margin: 0 0 0 50px;
+  }
+  .right_side h1 {
+    font-size: 11em;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .right_side img {
+    width: 250px;
+    margin-top: 5%;
+    float: none;
+  }
+  .thinking {
+    position: absolute;
+    width: 720px;
+    height: 320px;
+    right: 2%;
+    top: 2%;
+    -webkit-animation: pulsing 8s infinite;
+    animation: pulsing 8s infinite;
+  }
+  .oval-thought-border {
+    padding: 17% 14% 0 42%;
+    background: url("../img/cloud.svg") no-repeat;
+  }
+  #section1 p {
+    font-size: 1.9em;
+    width: 80%;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right_side {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .right_side p {
+    font-size: 2.2em !important;
+    width: 80% !important;
+    text-align: left;
+    float: left;
+    margin: 0 auto;
+  }
+  .right_side h1 {
+    font-size: 11em;
+    text-align: left;
+    margin-bottom: 5%;
+  }
+  .right_side img {
+    width: 250px;
+    margin-top: 10%;
+    float: left;
+  }
+  .aboutAnika {
+    max-width: 80% !important;
+    max-width-margin: 0 auto;
+  }
+  .dolls-img {
+    display: block;
+    margin: -10% 0 0% 0;
+    height: auto;
+    width: 100%;
+    position: absolute;
+  }
+  .main_page .collide {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin: auto;
+  }
+  .thinking {
+    position: absolute;
+    width: 940px;
+    height: 420px;
+    right: 5%;
+    top: 10%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .dolls-img {
+    display: block;
+    margin: -10% 0 0% 0;
+    height: auto;
+    width: 100%;
+    position: absolute;
+  }
+  .main_page .collide {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin: auto;
+  }
+  .thinking {
+    position: absolute;
+    width: 1050px;
+    height: 470px;
+    right: 13%;
+    top: 12%;
+  }
+  #section1 p {
+    font-size: 1.9em;
+    width: 70%;
+    text-align: justify;
   }
 }

@@ -61,6 +61,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_mixins\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_mixins\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_vars.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -73,16 +83,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/main.sass": {
 		"aP": 0,
