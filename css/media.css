@@ -159,8 +159,109 @@
   }
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #section2 .col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667% !important;
+        flex: 0 0 41.666667% !important;
+        max-width: 41.666667% !important;
+    }
+    #section2 .col-md-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333% !important;
+        flex: 0 0 58.333333% !important;
+        max-width: 58.333333% !important;
+    }
+    .main_page .collide {
+        width: 85%;
+        height: 44%;
+        position: absolute;
+        right: 0;
+        bottom: 21%;
+        left: 0;
+        margin: auto;
+    }
+    .mesyats_icon {
+        width: 50px;
+        height: 115px;
+        left: 5%;
+      }
+    #section1 p {
+        font-size: 1.9em;
+        width: 95%;
+        text-align: justify;
+    }
+    .aboutAnika{
+        height: 300px;
+        margin: 35px auto;
+    }
+    .col-xs-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .dolls-img {
+        display: block;
+        margin: -8% 0 0% 0;
+        height: 500px;
+        width: auto;
+        position: absolute;
+    }
+    .right_side {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right_side p {
+        font-size: 1.7em !important;
+        width: 90% !important;
+        text-align: left;
+        float: left;
+        margin: 0 auto;
+    }
+    .right_side h1 {
+        font-size: 5em;
+        text-align: left;
+        margin-bottom: 7%;
+    }
+    .thinking {
+        position: absolute;
+        width: 671px;
+        height: 470px;
+        right: 7%;
+        top: 13%;
+    }
+    .oval-thought-border {
+        padding: 16% 8% 0 36%;
+        background: url(../img/cloud.svg) no-repeat;
+    }
+    .oval-thought-border p {
+        font-size: 2.3em!important;
+        width: 100%!important;
+        color: #000;
+    }
+}
 
 @media (min-width: 992px) {
+  #section2 .col-md-5 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  #section2 .col-md-7 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
   #section1 {
     margin: 0;
   }
@@ -302,96 +403,7 @@
 
 
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    #section2 .col-md-5 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.666667% !important;
-        flex: 0 0 41.666667% !important;
-        max-width: 41.666667% !important;
-    }
-    #section2 .col-md-7 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.333333% !important;
-        flex: 0 0 58.333333% !important;
-        max-width: 58.333333% !important;
-    }
-    .main_page .collide {
-        width: 85%;
-        height: 44%;
-        position: absolute;
-        right: 0;
-        bottom: 21%;
-        left: 0;
-        margin: auto;
-    }
-    .mesyats_icon {
-        width: 50px;
-        height: 115px;
-        left: 5%;
-      }
-    #section1 p {
-        font-size: 1.9em;
-        width: 95%;
-        text-align: justify;
-    }
-    .aboutAnika{
-        height: 300px;
-        margin: 35px auto;
-    }
-    .col-xs-12 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
 
-    .dolls-img {
-        display: block;
-        margin: -8% 0 0% 0;
-        height: 500px;
-        width: auto;
-        position: absolute;
-    }
-    .right_side {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .right_side p {
-        font-size: 1.7em !important;
-        width: 90% !important;
-        text-align: left;
-        float: left;
-        margin: 0 auto;
-    }
-    .right_side h1 {
-        font-size: 5em;
-        text-align: left;
-        margin-bottom: 7%;
-    }
-    .thinking {
-        position: absolute;
-        width: 671px;
-        height: 470px;
-        right: 7%;
-        top: 13%;
-    }
-    .oval-thought-border {
-        padding: 16% 8% 0 36%;
-        background: url(../img/cloud.svg) no-repeat;
-    }
-    .oval-thought-border p {
-        font-size: 2.3em!important;
-        width: 100%!important;
-        color: #000;
-    }
-}
 
 
 @media (min-height: 800px) {
