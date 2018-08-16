@@ -144,6 +144,9 @@
     width: 100%!important;
     color: #000;
   }
+  .thinking a {
+    text-decoration: none !important;
+  }
   #section1 p {
     font-size: 3em;
     width: 90%;
@@ -388,6 +391,7 @@
     height: 470px;
     right: 13%;
     top: 12%;
+    padding: 9% 6% 0 22%;
   }
   #section1 p {
     font-size: 1.9em;
