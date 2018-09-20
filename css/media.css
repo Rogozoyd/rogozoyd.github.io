@@ -41,13 +41,14 @@
     position: relative;
   }
   .main_page .collide {
-    width: 100%;
-    height: 40%;
+    width: 93%;
+    height: 60%;
     position: absolute;
     right: 0;
     bottom: 10%;
     left: 0;
     margin: auto;
+    background: url("../img/phoneScreen.svg") center no-repeat;
   }
   #section1 p {
     font-size: 3em;
@@ -70,8 +71,8 @@
     max-width: 100% !important;
   }
   .mesyats_icon {
-    width: 80px;
-    height: 180px;
+    width: 60px;
+    height: 130px;
     left: 5%;
   }
   .brand_name {
@@ -122,13 +123,14 @@
     padding-top: 90px;
   }
   .main_page .collide {
-    width: 100%;
-    height: 40%;
+    width: 93%;
+    height: 60%;
     position: absolute;
     right: 0;
     bottom: 10%;
     left: 0;
     margin: auto;
+    background: url("../img/phoneScreen.svg") center no-repeat;
   }
   .thinking {
     position: absolute;
@@ -255,8 +257,19 @@
     -ms-flex: 50% !important;
     flex: 0 0 50% !important;
     max-width: 50% !important;
+  }
   #section1 {
     margin: 0;
+  }
+  .main_page .collide {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin: auto;
+    background: url("../img/wash.svg") center no-repeat;
   }
   .dolls-img {
     display: block;
@@ -304,8 +317,8 @@
   }
 
   #section1 p {
-    font-size: 1.9em;
-    width: 80%;
+    font-size: 2em;
+    width: 90%;
     text-align: justify;
   }
 }
@@ -319,7 +332,7 @@
     margin: auto;
   }
   .right_side p {
-    font-size: 2.2em !important;
+    font-size: 1.8em !important;
     width: 80% !important;
     text-align: left;
     float: left;
@@ -342,7 +355,7 @@
   }
   .dolls-img {
     display: block;
-    margin: -10% 0 0% 0;
+    margin: -4% 0 0% 0;
     height: auto;
     width: 100%;
     position: absolute;
@@ -355,6 +368,7 @@
     bottom: 10%;
     left: 0;
     margin: auto;
+    background: url("../img/wash.svg") center no-repeat;
   }
   .thinking {
     position: absolute;
@@ -363,7 +377,12 @@
     right: 5%;
     top: 10%;
     background: url(../img/cloud.svg) no-repeat;
-    padding: 11% 8% 0 25%;
+    padding: 11% 9% 0 26%;
+  }
+  #section1 p {
+    font-size: 1.8em;
+    width: 90%;
+    text-align: justify;
   }
 }
 
@@ -384,6 +403,7 @@
     bottom: 10%;
     left: 0;
     margin: auto;
+    background: url("../img/wash.svg") center no-repeat;
   }
   .thinking {
     position: absolute;
@@ -391,7 +411,7 @@
     height: 470px;
     right: 13%;
     top: 12%;
-    padding: 9% 6% 0 22%;
+    padding: 9% 8% 0 24%;
   }
   #section1 p {
     font-size: 1.9em;

@@ -2231,13 +2231,14 @@ body p {
 }
 
 .main_page .collide {
-  width: 80%;
+  width: 90%;
   height: 60%;
   position: absolute;
   right: 0;
   bottom: 10%;
   left: 0;
   margin: auto;
+  background: url("../img/wash.svg") no-repeat;
 }
 
 .brand_name {
@@ -2520,12 +2521,6 @@ body p {
   background-size: cover;
   padding: 9% 6% 0 22%;
   text-align: center;
-}
-
-.thinkin p {
-  font-size: 4em !important;
-  width: 100%	!important;
-  color: black;
 }
 
 .thinkin a {
