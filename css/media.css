@@ -174,17 +174,18 @@
         max-width: 58.333333% !important;
     }
     .main_page .collide {
-        width: 85%;
-        height: 44%;
+        width: 90%;
+        height: 60%;
         position: absolute;
         right: 0;
-        bottom: 21%;
+        bottom: 8%;
         left: 0;
         margin: auto;
+        background: url("../img/wash.svg") center no-repeat;
     }
     .mesyats_icon {
-        width: 50px;
-        height: 115px;
+        width: 36px;
+        height: 80px;
         left: 5%;
       }
     #section1 p {
