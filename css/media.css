@@ -264,7 +264,7 @@
   }
   .main_page .collide {
     width: 100%;
-    height: 40%;
+    height: 60%;
     position: absolute;
     right: 0;
     bottom: 10%;
@@ -397,11 +397,11 @@
     position: absolute;
   }
   .main_page .collide {
-    width: 80%;
-    height: 60%;
+    width: 90%;
+    height: 70%;
     position: absolute;
     right: 0;
-    bottom: 10%;
+    bottom: 5%;
     left: 0;
     margin: auto;
     background: url("../img/wash.svg") center no-repeat;
